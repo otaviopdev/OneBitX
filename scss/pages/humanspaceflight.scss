@@ -1,0 +1,178 @@
+header {
+  .title-header-humans {
+    font-size: 120px;
+  }
+  .description-header-humans {
+    padding-top: 23px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .img-down-header {
+    width: 135px;
+  }
+  .content-header-humans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+}
+
+.section-position-right {
+  height: 88vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $paragraph-color;
+  .content-section {
+    margin-right: 95px;
+    width: 550px;
+  }
+}
+
+.section-position-left {
+  height: 88vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: $paragraph-color;
+  .content-section {
+    margin-left: 95px;
+  }
+}
+
+.title-mission {
+  font-size: 18px;
+}
+
+.title-topic {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.description-topic {
+  color: $paragraph-color;
+}
+
+.content-section .btn-topic {
+  margin-top: 25px;
+  padding: 16px 50px;
+}
+
+.text-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+  p {
+    font-size: 20px;
+    color: $paragraph-color;
+    text-align: center;
+    width: 61%;
+  }
+  a {
+    text-decoration: none;
+    color: $paragraph-color;
+    font-weight: bold;
+  }
+}
+
+.background-size-humans {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  &.background-humans-image01 {
+    background-image: url("../../img/humanFlight/01.jpg");
+  }
+  &.background-humans-image02 {
+    background-image: url("../../img/humanFlight/02.jpg");
+  }
+  &.background-humans-image03 {
+    background-image: url("../../img/humanFlight/03.jpg");
+  }
+  &.background-humans-image04 {
+    background-image: url("../../img/humanFlight/04.jpg");
+  }
+  &.background-humans-image05 {
+    background-image: url("../../img/humanFlight/05.jpg");
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  header {
+    .title-header-humans {
+      font-size: 100px;
+    }
+    .description-header-humans {
+      font-size: 25px;
+    }
+  }
+
+  .section-position-right {
+    justify-content: flex-start;
+    .content-section {
+      margin-left: 95px;
+    }
+  }
+
+  .text-information {
+    p {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    .title-header-humans {
+      font-size: 70px;
+    }
+    .description-header-humans {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    .title-header-humans {
+      font-size: 40px;
+    }
+    .description-header-humans {
+      font-size: 15px;
+    }
+  }
+
+  .text-information {
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .section-position-right {
+    .content-section {
+      margin: 0px 15px;
+    }
+  }
+
+  .section-position-left {
+    .content-section {
+      margin: 0px 25px;
+    }
+  }
+
+  .title-mission {
+    font-size: 15px;
+  }
+
+  .title-topic {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .description-topic {
+    color: $paragraph-color;
+  }
+}

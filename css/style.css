@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .navbar {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+header .navbar .logo-header {
+  width: 240px;
+}
+header .navbar .nav-item a {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+header .navbar .navbar-brand {
+  margin-left: 2px;
+  margin-right: 36px;
+}
+
+.background-empty-common {
+  min-height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.background-empty-common .btn-background-empty {
+  padding: 20px 15px;
+  margin: 5px 5px;
+}
+.background-empty-common .email {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+.background-empty-common .email:hover {
+  color: white;
+}
+
+footer {
+  height: 137px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+footer p {
+  display: inline;
+}
+footer p.credits-footer {
+  color: #555252;
+}
+footer p,
+footer a {
+  padding: 11px;
+}
+footer .buttons-footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .buttons-footer a:hover {
+  color: #b9b9b9;
+}
+
+@media only screen and (max-width: 510px) {
+  footer .credits-footer {
+    display: block;
+    margin: 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 296px) {
+  footer a {
+    display: block;
+    padding: 0;
+    text-align: center;
+  }
+}
+.content-section-home {
+  height: 442px;
+  display: flex;
+  align-items: flex-end;
+}
+
+h2 {
+  color: white;
+}
+
+.img-down {
+  width: 90px;
+}
+
+.title-section-home {
+  font-size: 20px;
+}
+
+.description-section-home {
+  font-size: 40px;
+}
+.description-section-home.size-medium {
+  padding-right: 58.5%;
+}
+.description-section-home.size-maximum {
+  padding-right: 50%;
+}
+
+.content-section-home .btn-home {
+  margin-top: 48px;
+  padding: 15px 35px;
+  border: 2px solid white;
+  font-size: 16px;
+}
+
+.background-size-home {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.background-size-home.background-home-image01 {
+  background-image: url("../img/home/01.jpg");
+}
+.background-size-home.background-home-image02 {
+  background-image: url("../img/home/03.jpg");
+}
+.background-size-home.background-home-image03 {
+  background-image: url("../img/home/02.gif");
+}
+.background-size-home.background-home-image04 {
+  background-image: url("../img/home/04.jpg");
+}
+
+@media only screen and (max-width: 976px) {
+  .description-section-home.size-medium {
+    padding-right: 15%;
+  }
+  .description-section-home.size-maximum {
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 442px) {
+  .title-section-home {
+    font-size: 15px;
+  }
+  .description-section-home {
+    font-size: 30px;
+  }
+  .description-section-home.size-medium {
+    padding-right: 0;
+  }
+}
+header .title-header-humans {
+  font-size: 120px;
+}
+header .description-header-humans {
+  padding-top: 23px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+header .img-down-header {
+  width: 135px;
+}
+header .content-header-humans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.section-position-right {
+  height: 88vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.section-position-right .content-section {
+  margin-right: 95px;
+  width: 550px;
+}
+
+.section-position-left {
+  height: 88vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.section-position-left .content-section {
+  margin-left: 95px;
+}
+
+.title-mission {
+  font-size: 18px;
+}
+
+.title-topic {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.description-topic {
+  color: white;
+}
+
+.content-section .btn-topic {
+  margin-top: 25px;
+  padding: 16px 50px;
+}
+
+.text-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+}
+.text-information p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 61%;
+}
+.text-information a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.background-size-humans {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.background-size-humans.background-humans-image01 {
+  background-image: url("../img/humanFlight/01.jpg");
+}
+.background-size-humans.background-humans-image02 {
+  background-image: url("../img/humanFlight/02.jpg");
+}
+.background-size-humans.background-humans-image03 {
+  background-image: url("../img/humanFlight/03.jpg");
+}
+.background-size-humans.background-humans-image04 {
+  background-image: url("../img/humanFlight/04.jpg");
+}
+.background-size-humans.background-humans-image05 {
+  background-image: url("../img/humanFlight/05.jpg");
+}
+
+@media only screen and (max-width: 789px) {
+  header .title-header-humans {
+    font-size: 100px;
+  }
+  header .description-header-humans {
+    font-size: 25px;
+  }
+  .section-position-right {
+    justify-content: flex-start;
+  }
+  .section-position-right .content-section {
+    margin-left: 95px;
+  }
+  .text-information p {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  header .title-header-humans {
+    font-size: 70px;
+  }
+  header .description-header-humans {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header .title-header-humans {
+    font-size: 40px;
+  }
+  header .description-header-humans {
+    font-size: 15px;
+  }
+  .text-information p {
+    font-size: 15px;
+  }
+  .section-position-right .content-section {
+    margin: 0px 15px;
+  }
+  .section-position-left .content-section {
+    margin: 0px 25px;
+  }
+  .title-mission {
+    font-size: 15px;
+  }
+  .title-topic {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .description-topic {
+    color: white;
+  }
+}
+header .header-f9 {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+header .title-header-f9 {
+  font-size: 90px;
+  font-family: "Rubik", Arial, sans-serif;
+}
+header .description-header-f9 {
+  font-size: 20px;
+}
+
+.background-carousel-image {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.background-carousel-image.img-falcon9-general {
+  background-image: url("../img/falcon9/03.jpg");
+}
+.background-carousel-image.img-falcon9-stage1 {
+  background-image: url("../img/falcon9/04.jpg");
+}
+.background-carousel-image.img-falcon9-stage2 {
+  background-image: url("../img/falcon9/05.jpg");
+}
+.background-carousel-image.img-falcon9-interstate {
+  background-image: url("../img/falcon9/06.jpg");
+}
+.background-carousel-image.img-falcon9-useful-load {
+  background-image: url("../img/falcon9/07.jpg");
+}
+
+.title-section-f9 {
+  color: white;
+}
+
+.description-section-f9 {
+  color: white;
+}
+
+.carousel-item .text-content-size,
+.content-item .text-content-size {
+  height: 330px;
+}
+.carousel-item .text-information-size,
+.content-item .text-information-size {
+  max-width: 480px;
+}
+
+table.table-f9 {
+  color: white;
+  width: 480px;
+}
+
+.background-empty-f9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 325px;
+  color: white;
+}
+.background-empty-f9 .information-value {
+  font-size: 90px;
+}
+.background-empty-f9 .information-description {
+  font-size: 20px;
+}
+
+.text-content {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.text-content .text-falcon9 {
+  width: 640px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.img-carousel-section2 {
+  height: 100vh;
+}
+
+.background-size-f9 {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.background-size-f9.background-f9-image01 {
+  background-image: url("../img/falcon9/01.jpg");
+}
+.background-size-f9.background-f9-image02 {
+  background-image: url("../img/falcon9/02.jpg");
+}
+.background-size-f9.background-f9-image03 {
+  background-image: url("../img/falcon9/08.jpg");
+}
+
+@media only screen and (max-width: 520px) {
+  header .title-header-f9 {
+    font-size: 60px;
+    text-align: center;
+  }
+  header .description-header-f9 {
+    font-size: 15px;
+  }
+  .background-empty-f9 {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  table.table-f9 {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

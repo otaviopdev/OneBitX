@@ -1,0 +1,10 @@
+//variables
+@import "./variables/colors.scss";
+
+//elements common (navbar,footer...)
+@import "./pages/common.scss";
+
+//pages
+@import "./pages/index.scss";
+@import "./pages/humanspaceflight.scss";
+@import "./pages/falcon9.scss";
